@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<body>
+<div class="container">
+    <div class="forms">
+        <div class="form dragon">
+            <span class="title">Criar dragão</span>
+
+            <form [formGroup]="form">
+                <div class="input-field">
+                    <input type="text"  name="name" placeholder="Digite um nome para seu dragão" required formControlName="name">
+                    <i class="uil uil-font"></i>
+                </div>
+                
+                <div class="input-field">
+                    <input type="text"  name="name" placeholder="Digite o tipo do seu dragão" required formControlName="type">
+                    <i class="uil uil-font"></i>
+                </div>
+
+                <input type="submit" id="submit" hidden />
+
+                <div class="input-field button">
+                    <input type="button" value="Salvar" (click)="salvar()">
+                </div>
+
+                <div class="input-field button delete">
+                    <input type="button" class="delete" style="background-color: #9C0F48;" value="Deletar" (click)="remove()">
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Voltar" routerLink="/list">
+                </div>
+
+              
+            </form>
+
+         
+        </div>
+
+      
+    </div>
+</div>
+
+<div>
+    <img src="../../../../assets/img/create.png">
+</div>
+</body>

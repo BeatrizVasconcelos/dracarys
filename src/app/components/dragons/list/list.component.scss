@@ -1,0 +1,71 @@
+#dragons {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #dragons td, #dragons th {
+    border: 20px solid #9C0F48;
+    padding: 8px;
+  }
+  
+  #dragons tr:nth-child(even){background-color: #F9E4D4;}
+  
+  #dragons tr:hover {background-color: #ddd;}
+  
+  #dragons th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #D67D3E;
+    color: white;
+  }
+
+  body{
+    height: 100%;
+    max-height: none;
+    width: 100%;
+    max-width: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9E4D4;
+    
+}
+
+.button  {
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.img1 {
+  width: 200px;
+  height: auto;
+}
+
+
+.img2 {
+  width: 80px;
+  height: auto;
+}
+
+.criar{
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  background-color: #9C0F48
+  ;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

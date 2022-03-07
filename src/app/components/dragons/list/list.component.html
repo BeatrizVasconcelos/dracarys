@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<body>
+  <img src="../../../../assets/img/dragon.png" class="img1">
+<table id="dragons">
+    <tr>
+      <th>Nome</th>
+      <th>Tipo</th>
+      <th>Data de criação</th>
+      <th>Visualizar</th>
+    </tr>
+    <tr *ngFor="let dragon of dragons">
+      <td >{{dragon.name}}</td>
+      <td> {{dragon.type}}</td>
+      <td> {{dragon.createdAt | date}}</td>
+      <td>
+        <i class="uil uil-eye" style="cursor: pointer;" routerLink="/dragon/{{dragon.id}}"></i>
+    </td>
+    </tr>
+
+
+  </table>
+  <div class="create">
+  <img src="../../../../assets/img/add.png" class="img2">  
+  <input type="button" class="criar"  routerLink="/dragon/0" value="Criar dragão">
+</div>
+</body>
