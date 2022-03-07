@@ -1,27 +1,25 @@
-# Dracarys
+# Dracarys :dragon_face:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+Criação, edição e remoção de dragões! Crie seus dragões de diferentes tipos. :grinning:
 
-## Development server
+## Tecnologias Utilizadas:
+* Angular 11
+* SCSS
+* Node.js
+* HTML
+* Typescript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Paleta de Cores
+https://colorhunt.co/palette/f9e4d4d67d3e9c0f48470d21 (#F9E4D4, #D67D3E, #9C0F48, #470D21)
 
-## Code scaffolding
+## Rodando o projeto
+* Faça o clone do projeto
+* Rode `npm install` para instalar os pacotes utilizados.
+* Rode `ng serve` e navegue até `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fazendo login na aplicação
+* Usuário: beatriz@gmail.com
+* Senha: 123456
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aproveite! :dragon:
